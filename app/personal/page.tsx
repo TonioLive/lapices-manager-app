@@ -24,9 +24,11 @@ export default function PersonalPage() {
             <p className="text-sm font-semibold text-sky-700">
               Lápices Manager
             </p>
+
             <h1 className="text-3xl font-bold text-slate-950">
               Panel de personal
             </h1>
+
             <p className="mt-2 text-slate-600">
               Gestión interna para dirección, administración, profesorado,
               coordinación y cocina.
@@ -46,14 +48,17 @@ export default function PersonalPage() {
             <p className="text-sm text-slate-500">Alumnos activos</p>
             <p className="mt-2 text-3xl font-bold">486</p>
           </div>
+
           <div className="rounded-3xl bg-white p-5 shadow-sm">
             <p className="text-sm text-slate-500">Comedor hoy</p>
             <p className="mt-2 text-3xl font-bold">267</p>
           </div>
+
           <div className="rounded-3xl bg-white p-5 shadow-sm">
             <p className="text-sm text-slate-500">Matinera hoy</p>
             <p className="mt-2 text-3xl font-bold">42</p>
           </div>
+
           <div className="rounded-3xl bg-white p-5 shadow-sm">
             <p className="text-sm text-slate-500">Mensajes pendientes</p>
             <p className="mt-2 text-3xl font-bold">18</p>
@@ -68,7 +73,9 @@ export default function PersonalPage() {
               className="rounded-3xl bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
             >
               <div className="text-3xl">{icon}</div>
+
               <h2 className="mt-4 text-xl font-bold">{title}</h2>
+
               <p className="mt-2 text-sm leading-6 text-slate-600">
                 {description}
               </p>
